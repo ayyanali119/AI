@@ -1,0 +1,27 @@
+      <input id="user-input" type="text" placeholder="Ask me a question..." style="width: 50%; margin: 20px auto; padding: 10px; border-radius: 10px; border: 1px solid #ccc;">
+      <button id="submit-button" style="background-color: #cae6cb; color: #fff; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer;">Ask</button>
+
+
+
+
+
+
+
+saveChat(userQuestion, response); // Save the conversation history
+
+
+
+      <html>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center; color: #333;">AI Assistant</h1>
+      <div id="response-container" style="text-align: center; margin-bottom: 20px;"></div>
+      <div id="chat-log" style="text-align: center; margin-bottom: 20px;"></div>
+      <input id="user-input" type="text" placeholder="Ask me a question..." style="width: 50%; margin: 20px auto; padding: 10px; border-radius: 10px; border: 1px solid #ccc; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);">
+
+      <button id="submit-button" style="background-color: #4CAF50; color: #fff; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; position: absolute; bottom: 0; right: 50%; transform: translateX(50%);">Ask</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
