@@ -81,59 +81,73 @@ function generateResponse(userQuestion) {
 
                       case 'What is AI':
                         case 'what is ai':
+                          case 'define ai':
+                            case 'define  AI':
                         case 'What is artificial intelligence?':
                         case 'what is artificial intelligence':
+                          case 'define artificial intelligence':
                         return 'AI (Artificial Intelligence) refers to intelligence exhibited by machines, particularly computer systems.';
                         case 'Who is the father of AI?':
                         case 'who is the father of ai':
+                          case 'which is the father of ai':
                         return 'John McCarthy is considered the father of AI.';
                         case 'What is machine learning?':
                         case 'what is machine learning':
+                          case 'define machine learning':
                         return 'Machine learning is a type of AI that enables machines to learn from data and improve their performance on a task without being explicitly programmed.';
                         case 'What is deep learning?':
                         case 'what is deep learning':
+                          case 'define deep learning':
                         return 'Deep learning is a type of machine learning that uses neural networks to analyze data.';
                         case 'What is natural language processing?':
                         case 'what is natural language processing':
+                          case 'define natural language processing':
                         return 'Natural language processing (NLP) is a subfield of AI that deals with the interaction between computers and humans in natural language.'
                         case 'What is programming?':
 case 'what is programming':
+  case 'define programming':
 return 'Programming is the process of designing, writing, testing, and maintaining the source code of computer programs.';
 case 'What is a programming language?':
 case 'what is a programming language':
+  case 'define programming language':
 return 'A programming language is a set of rules and instructions that a computer can understand and execute.';
 case 'What is HTML?':
 case 'what is html':
+  case 'define html':
 return 'HTML (Hypertext Markup Language) is the standard markup language used to create web pages.';
 case 'What is CSS':
 case 'what is css':
+  case 'define css':
 return 'CSS (Cascading Style Sheets) is a styling language used to control the layout and appearance of web pages.';
 case 'What is JavaScript?':
 case 'what is javascript':
+  case 'define javascript':
 return 'JavaScript is a high-level, dynamic, and interpreted programming language used for client-side scripting on the web.';
 case 'What is Python?':
 case 'what is python':
+  case 'define python':
 return 'Python is a high-level, interpreted programming language used for various purposes such as web development, scientific computing, and data analysis.';
 case 'What is Java?':
-case 'what is java':
+  case 'what is java':
+    case 'define java':
 return 'Java is an object-oriented programming language used for developing large-scale applications, including Android apps and web applications.';
 case 'What is a variable?':
-case 'what is a variable':
+case 'define variable':
 return 'A variable is a named storage location that holds a value that can be used in a program.';
 case 'What is a function?':
-case 'what is a function':
+case 'define function':
 return 'A function is a block of code that can be called multiple times from different parts of a program.';
-case 'What is the capital of Pakistan?':
-case 'what is the capital of pakistan':
+case 'Which is the capital of Pakistan?':
+case 'which is the capital of pakistan':
 return 'Islamabad is the capital of Pakistan.';
-case 'What is the largest city of Pakistan?':
-case 'what is the largest city of pakistan':
+case 'Which is the largest city of Pakistan?':
+case 'which is the largest city of pakistan':
 return 'Karachi is the largest city of Pakistan.';
 case 'What is the national language of Pakistan?':
 case 'what is the national language of pakistan':
 return 'Urdu is the national language of Pakistan.';
-case 'What is the population of Pakistan?':
-case 'what is the population of pakistan':
+case 'What is the total population of Pakistan?':
+case 'what is the total population of pakistan':
 return 'The population of Pakistan is approximately 235 million people.';
 case 'What is the currency of Pakistan?':
 case 'what is the currency of pakistan':
@@ -141,88 +155,89 @@ return 'The Pakistani rupee (PKR) is the currency of Pakistan.';
 case 'Who is the founder of Pakistan?':
 case 'who is the founder of pakistan':
 return 'Muhammad Ali Jinnah is the founder of Pakistan.';
-case 'What is the national animal of Pakistan?':
-case 'what is the national animal of pakistan':
+case 'Which is the national animal of Pakistan?':
+case 'which is the national animal of pakistan':
 return 'The markhor is the national animal of Pakistan.';
-case 'What is the highest mountain peak in Pakistan?':
-case 'what is the highest mountain peak in pakistan':
+case 'Which is the highest mountain peak in Pakistan?':
+case 'which is the highest mountain peak in pakistan':
 return 'K2, located in the Karakoram range, is the highest mountain peak in Pakistan.';
-case 'What is the longest river in Pakistan?':
-case 'what is the longest river in pakistan':
+case 'Which is the longest river in Pakistan?':
+case 'which is the longest river in pakistan':
 return 'The Indus River is the longest river in Pakistan, stretching over 3,180 kilometers.';
-case 'What is the largest province of Pakistan by land area?':
-case 'what is the largest province of pakistan by land area':
+case 'Which is the largest province of Pakistan by land area?':
+case 'which is the largest province of pakistan by land area':
 return 'Balochistan is the largest province of Pakistan by land area, covering over 347,190 square kilometers.';
-case 'What is the most widely spoken language in Pakistan?':
-case 'what is the most widely spoken language in pakistan':
+case 'Which is the most widely spoken language in Pakistan?':
+case 'which is the most widely spoken language in pakistan':
 return 'Punjabi is the most widely spoken language in Pakistan, with over 70 million speakers.';
-case 'What is the national dish of Pakistan?':
-case 'what is the national dish of pakistan':
+case 'Which is the national dish of Pakistan?':
+case 'which is the national dish of pakistan':
 return 'Biryani is the national dish of Pakistan, made with a mixture of spices, basmati rice, and marinated meat or vegetables.';
-case 'What is the most popular sport in Pakistan?':
-case 'what is the most popular sport in pakistan':
+case 'Which is the most popular sport in Pakistan?':
+case 'which is the most popular sport in pakistan':
 return 'Cricket is the most popular sport in Pakistan, with a huge following and a successful national team.';
-case 'What is the oldest city in Pakistan?':
-case 'what is the oldest city in pakistan':
+case 'Which is the oldest city in Pakistan?':
+case 'whih is the oldest city in pakistan':
 return 'Taxila is the oldest city in Pakistan, dating back to the 6th century BCE and a UNESCO World Heritage Site.';
-case 'What is the highest mountain pass in Pakistan?':
-case 'what is the highest mountain pass in pakistan':
+case 'Which is the highest mountain pass in Pakistan?':
+case 'which is the highest mountain pass in pakistan':
 return 'The Khunjerab Pass is the highest mountain pass in Pakistan, located at an elevation of 4,693 meters.';
-case 'What is a sentence?':
+case 'define sentence?':
 case 'what is a sentence?':
 return 'A sentence is a group of words that expresses a complete thought or idea.';
-case 'What is a declarative sentence?':
+case 'define declarative sentence':
 case 'what is a declarative sentence':
 return 'A declarative sentence is a sentence that states a fact or opinion.';
-case 'What is an interrogative sentence?':
+case 'define interrogative sentence':
 case 'what is an interrogative sentence':
 return 'An interrogative sentence is a sentence that asks a question.';
-case 'What is an imperative sentence?':
+case 'define imperative sentence':
 case 'what is an imperative sentence':
 return 'An imperative sentence is a sentence that gives a command or makes a request.';
-case 'What is a compound sentence?':
+case 'define compound sentence':
 case 'what is a compound sentence':
 return 'A compound sentence is a sentence that contains two or more independent clauses joined by a conjunction.';
-case 'What is a complex sentence?':
+case 'define complex sentence':
 case 'what is a complex sentence':
 return 'A complex sentence is a sentence that contains an independent clause and one or more dependent clauses.';
-case 'What is a simple sentence?':
+case 'define simple sentence':
 case 'what is a simple sentence':
 return 'A simple sentence is a sentence that contains only one independent clause.';
-case 'What is a sentence fragment?':
+case 'define sentence fragment?':
 case 'what is a sentence fragment':
 return 'A sentence fragment is a group of words that does not express a complete thought or idea.';
 case 'What is a run-on sentence?':
 case 'what is a run-on sentence':
 return 'A run-on sentence is a sentence that contains two or more independent clauses that are not joined by a conjunction.';
-case 'What is a clause?':
+case 'define clause':
 case 'what is a clause':
 return 'A clause is a group of words that contains a subject and a predicate.';
-case 'What is a phrase?':
+case 'define phrase':
 case 'what is a phrase':
 return 'A phrase is a group of words that does not contain a subject-verb combination.';
-case 'What is a verb?':
+case 'define verb':
 case 'what is a verb':
 return 'A verb is a word that expresses action, occurrence, or state of being.';
-case 'What is a noun?':
+case 'define noun':
 case 'what is a noun':
 return 'A noun is a word that refers to a person, place, thing, or idea.';
-case 'What is an adjective?':
+case 'define adjective':
 case 'what is an adjective':
 return 'An adjective is a word that modifies, or describes, a noun or pronoun.';
-case 'What is an adverb?':
+case 'define adverb':
 case 'what is an adverb':
 return 'An adverb is a word that modifies, or describes, a verb, an adjective, or another adverb.';
-case 'What is a pronoun?':
+case 'define pronoun':
 case 'what is a pronoun':
 return 'A pronoun is a word that takes the place of a noun in a sentence.';
-case 'What is a preposition?':
+case 'define preposition':
 case 'what is a preposition':
 return 'A preposition is a word that shows the relationship between a noun or pronoun and other words in a sentence.';
 case 'What is a conjunction?':
 case 'what is a conjunction':
+  case 'define conjunction':
 return 'A conjunction is a word that joins two words, phrases, or clauses together.';
-case 'What is an article?':
+case 'define article':
 case 'what is an article':
 return 'An article is a word that modifies a noun and indicates whether it is specific or general.';
 case 'What is the Urdu word for "hello"?':
