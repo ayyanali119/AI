@@ -416,7 +416,7 @@ case 'why learn a foreign language':
 return 'Learning a foreign language offers a wealth of benefits, including improved cognitive skills, enhanced cultural understanding, and increased career opportunities. It allows individuals to communicate with diverse communities, appreciate literature and art in their original form, and explore new perspectives. Language learning also boosts memory, problem-solving abilities, and multi-tasking skills, while delaying age-related cognitive decline. In an increasingly globalized world, speaking multiple languages is a valuable asset for personal and professional growth.'
 
     default:
-      return 'I didn\'t understand that. Please try again!.and talk me in small alphabat.';
+      return 'I didn\'t understand that. Please try again!.';
   }
 }
 
