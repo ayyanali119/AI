@@ -375,7 +375,7 @@ case 'What is the process by which plants make their own food from sunlight, wat
 case 'what is the process by which plants make their own food from sunlight water and carbon dioxide':
 return 'Photosynthesis.'
 case 'What is your name?':
-case 'what is the your name':
+case 'what is your name':
 return 'I do not have any name because, I am AI.'
 case 'define physics':
 case 'what is physics':
